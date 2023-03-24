@@ -1,0 +1,92 @@
+body{
+display: flex;
+justify-content: flex-start;
+top: 0;
+left: 0;
+margin-top: 0;
+margin-left: 0;
+overflow: hidden;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+}
+
+h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+#colLeft{
+    background-image: url("img/san-fran.jpg");
+    width: 40vw;
+    min-height: 100vh;
+    color: #fff; 
+}
+
+#colLeft h1{
+    font-family: 'Eagle Lake', cursive;
+    font-size: 52pt;
+}
+
+#colLeftContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#colLeftContent img{
+    width: auto;
+    height: 200px;
+}
+
+#colRight{
+    width: 60vw;
+    padding: 40px;
+}
+
+#formContainer{
+    -webkit-box-shadow: 2px 1px 15px 5px rgba(0,0,0,0.11); 
+    box-shadow: 2px 1px 15px 5px rgba(0,0,0,0.11);
+    padding: 40px;
+}
+
+#formContainer label{
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formContainer form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#input{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
