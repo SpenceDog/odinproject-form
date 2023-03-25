@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Roboto&display=swap" rel="stylesheet">
+        <script src="main.js"></script> 
         <title>The Odin Project - Sign Up Form</title>
     </head>
     <body>
@@ -28,7 +29,7 @@
             </div>
             <div id="formContainer">
                 <h2>Let's Do This!</h2>
-                <form>
+                <form onsubmit="ComparePass(this)">
                     <div id="input">
                         <label for="firstname">First Name</label>
                         <input type="text" id="firstname" value="Thor">
@@ -47,17 +48,17 @@
                     </div>
                     <div id="input">
                         <label for="password">Password</label>
-                        <input type="password" id="password">
+                        <input type="password" name="pass1" id="password">
                     </div>
                     <div id="input">
                         <label for="confirmpassword">confirm Password</label>
-                        <input type="password" id="confirmpassword">
+                        <input type="password" name="pass2" id="confirmpassword">
                     </div>
-                    <input type="submit" value="Submit">
+                    <input id="SubmitButton" type="submit" value="Submit">
                 </form>
             </div>
             <div id="contentBottom">
-
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </body>
